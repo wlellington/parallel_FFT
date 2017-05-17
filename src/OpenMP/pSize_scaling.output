@@ -1,0 +1,90 @@
+
+
+Wesley Ellington
+Math 4370
+
+OpenMP FFT implementation
+
+These tests look at the increase in effectiveness of the 1D and 2D FFTs
+for a fixed number of OpenMP threads. The number selected was 4, as it showed best
+performance for previous tests.
+
+
+Running 1D FFT of size 8192
+	1D FFT Run in: 0.007138 sec
+	1D IFFT Run in: 0.005426 sec
+Running 2D FFT of size 4 by 4
+	2D FFT Run in: 0.000363 sec
+	2D IFFT Run in: 0.000063 sec
+
+
+Running 1D FFT of size 16384
+	1D FFT Run in: 0.014838 sec
+	1D IFFT Run in: 0.010955 sec
+Running 2D FFT of size 8 by 8
+	2D FFT Run in: 0.000575 sec
+	2D IFFT Run in: 0.000127 sec
+
+
+Running 1D FFT of size 32768
+	1D FFT Run in: 0.021203 sec
+	1D IFFT Run in: 0.029901 sec
+Running 2D FFT of size 16 by 16
+	2D FFT Run in: 0.000813 sec
+	2D IFFT Run in: 0.000312 sec
+
+
+Running 1D FFT of size 65536
+	1D FFT Run in: 0.042213 sec
+	1D IFFT Run in: 0.061433 sec
+Running 2D FFT of size 32 by 32
+	2D FFT Run in: 0.001032 sec
+	2D IFFT Run in: 0.001112 sec
+
+
+Running 1D FFT of size 131072
+	1D FFT Run in: 0.090402 sec
+	1D IFFT Run in: 0.125971 sec
+Running 2D FFT of size 64 by 64
+	2D FFT Run in: 0.004318 sec
+	2D IFFT Run in: 0.004074 sec
+
+
+Running 1D FFT of size 262144
+	1D FFT Run in: 0.181289 sec
+	1D IFFT Run in: 0.257444 sec
+Running 2D FFT of size 128 by 128
+	2D FFT Run in: 0.014856 sec
+	2D IFFT Run in: 0.014317 sec
+
+
+Running 1D FFT of size 524288
+	1D FFT Run in: 0.382594 sec
+	1D IFFT Run in: 0.524223 sec
+Running 2D FFT of size 256 by 256
+	2D FFT Run in: 0.058334 sec
+	2D IFFT Run in: 0.058745 sec
+
+
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.893582 sec
+	1D IFFT Run in: 2.437847 sec
+Running 2D FFT of size 512 by 512
+	2D FFT Run in: 0.230661 sec
+	2D IFFT Run in: 0.240622 sec
+
+
+Running 1D FFT of size 4194304
+	1D FFT Run in: 3.871590 sec
+	1D IFFT Run in: 5.066105 sec
+Running 2D FFT of size 1024 by 1024
+	2D FFT Run in: 0.906999 sec
+	2D IFFT Run in: 0.938224 sec
+
+
+Running 1D FFT of size 8388608
+	1D FFT Run in: 8.091638 sec
+	1D IFFT Run in: 10.346937 sec
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 3.851357 sec
+	2D IFFT Run in: 3.788726 sec

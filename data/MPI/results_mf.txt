@@ -1,0 +1,21 @@
+Running FFT on 4096 by 4096 with 1 processes
+	Execution time of fft: 9.7123200893402100e+00
+	Execution time of ifft: 9.9131319522857666e+00
+Running FFT on 4096 by 4096 with 2 processes
+	Execution time of fft: 5.7631359100341797e+00
+	Execution time of ifft: 6.3840010166168213e+00
+Running FFT on 4096 by 4096 with 4 processes
+	Execution time of fft: 3.2488050460815430e+00
+	Execution time of ifft: 3.7998340129852295e+00
+Running FFT on 4096 by 4096 with 8 processes
+	Execution time of fft: 1.8061850070953369e+00
+	Execution time of ifft: 1.9732048511505127e+00
+Running FFT on 4096 by 4096 with 16 processes
+	Execution time of fft: 1.4901568889617920e+00
+	Execution time of ifft: 1.4955730438232422e+00
+Running FFT on 4096 by 4096 with 32 processes
+	Execution time of fft: 1.2906808853149414e+00
+	Execution time of ifft: 1.3009409904479980e+00
+Running FFT on 4096 by 4096 with 64 processes
+	Execution time of fft: 1.2147078514099121e+00
+	Execution time of ifft: 1.2248721122741699e+00

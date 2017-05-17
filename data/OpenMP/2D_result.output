@@ -1,0 +1,70 @@
+Wesley Ellington
+Math 4370
+
+OpenMP Implementation of FFT algorithm using 2D loop level parallelism
+only with no changes to 1D FFT level.
+
+OMP THREADS: 1
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.682132 sec
+	2D IFFT Run in: 0.693575 sec
+OMP THREADS: 2
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.541304 sec
+	2D IFFT Run in: 0.513617 sec
+OMP THREADS: 3
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.501029 sec
+	2D IFFT Run in: 0.446542 sec
+OMP THREADS: 4
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.475708 sec
+	2D IFFT Run in: 0.421421 sec
+OMP THREADS: 5
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.467188 sec
+	2D IFFT Run in: 0.400059 sec
+OMP THREADS: 6
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.461025 sec
+	2D IFFT Run in: 0.396552 sec
+OMP THREADS: 7
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.468621 sec
+	2D IFFT Run in: 0.400437 sec
+OMP THREADS: 8
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.461267 sec
+	2D IFFT Run in: 0.391605 sec
+OMP THREADS: 9
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.468728 sec
+	2D IFFT Run in: 0.512430 sec
+OMP THREADS: 10
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.476025 sec
+	2D IFFT Run in: 0.540306 sec
+OMP THREADS: 11
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.448943 sec
+	2D IFFT Run in: 0.552008 sec
+OMP THREADS: 12
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.447863 sec
+	2D IFFT Run in: 0.576007 sec
+OMP THREADS: 13
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.443690 sec
+	2D IFFT Run in: 0.593620 sec
+OMP THREADS: 14
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.449712 sec
+	2D IFFT Run in: 0.575021 sec
+OMP THREADS: 15
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.481342 sec
+	2D IFFT Run in: 0.601054 sec
+OMP THREADS: 16
+Running 2D FFT of size 2048 by 2048
+	2D FFT Run in: 0.483212 sec
+	2D IFFT Run in: 0.617109 sec

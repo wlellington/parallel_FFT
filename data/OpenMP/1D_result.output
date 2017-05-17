@@ -1,0 +1,41 @@
+
+Wesley Ellington
+Math 4370
+
+OpenMP FFT implementation
+
+Tests run on ManeFrame using fixed problem size. This shows impact
+on inner most loop of FFT butterfly operations only
+
+OMP THREADS: 1
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.941561 sec
+	1D IFFT Run in: 1.951156 sec
+OMP THREADS: 2
+Running 1D FFT of size 2097152
+	1D FFT Run in: 2.132309 sec
+	1D IFFT Run in: 2.162839 sec
+OMP THREADS: 3
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.949218 sec
+	1D IFFT Run in: 1.997436 sec
+OMP THREADS: 4
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.888994 sec
+	1D IFFT Run in: 2.440324 sec
+OMP THREADS: 5
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.895657 sec
+	1D IFFT Run in: 2.784115 sec
+OMP THREADS: 6
+Running 1D FFT of size 2097152
+	1D FFT Run in: 1.915776 sec
+	1D IFFT Run in: 3.219583 sec
+OMP THREADS: 7
+Running 1D FFT of size 2097152
+	1D FFT Run in: 2.051125 sec
+	1D IFFT Run in: 2.076273 sec
+OMP THREADS: 8
+Running 1D FFT of size 2097152
+	1D FFT Run in: 202.258758 sec
+	1D IFFT Run in: 203.224105 sec
